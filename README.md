@@ -1,16 +1,53 @@
 # profil_diri
 
-A new Flutter project.
+Aplikasi Flutter sederhana untuk menampilkan profil diri.
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+Proyek ini adalah aplikasi Flutter dasar dengan tujuan menampilkan informasi profil diri secara singkat. Ia menggunakan struktur aplikasi Flutter standar dan aset gambar yang disimpan di folder `images/`.
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Halaman utama aplikasi Flutter
+- Dukungan aset gambar di `images/`
+- Struktur proyek yang dapat dikembangkan untuk menambahkan halaman profil, kontak, dan informasi pribadi lainnya
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Proyek
+
+- `lib/main.dart` — entrypoint aplikasi Flutter
+- `lib/Page2.dart` — halaman tambahan atau contoh navigasi
+- `images/` — folder aset gambar yang digunakan oleh aplikasi
+- `android/`, `ios/`, `linux/`, `macos/`, `windows/`, `web/` — folder platform target Flutter
+
+## Instalasi
+
+1. Pastikan Flutter sudah terpasang: `flutter --version`
+2. Masuk ke direktori proyek:
+   ```bash
+   cd c:\ProjekFlutter\profil_diri
+   ```
+3. Install dependency:
+   ```bash
+   flutter pub get
+   ```
+
+## Menjalankan Aplikasi
+
+- Untuk menjalankan di emulator atau perangkat Android:
+  ```bash
+  flutter run
+  ```
+- Untuk build APK:
+  ```bash
+  flutter build apk
+  ```
+
+## Catatan
+
+- Paket ini belum dipublikasikan ke `pub.dev` (`publish_to: 'none'` di `pubspec.yaml`).
+- Gunakan `flutter pub upgrade` untuk memperbarui dependency yang tersedia.
+
+## Referensi
+
+- [Flutter documentation](https://docs.flutter.dev/)
+- [Flutter installation guide](https://docs.flutter.dev/get-started/install)
